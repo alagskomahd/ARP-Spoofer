@@ -26,9 +26,13 @@ This repository contains a **safe, non-executable simulation** that models ARP b
    git clone https://github.com/alagskomahd/arp-spoof.git
    cd arp-spoof
 
-2. **You can edit the code to add the ** 
+2. **Edit the code on line 34 and 35 to add the target and gateway ip address**
+   **Example**
+   ```pgsql
+   target_ip_ip = "192.168.43.88"
+   gateway_ip = "192.168.43.1" 
    
-2. **No root privileges**
+3. **No root privileges**
    ```bash
    python3 arp_spoof.py
 
