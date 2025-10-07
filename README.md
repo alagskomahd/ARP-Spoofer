@@ -27,7 +27,6 @@ This repository contains a **safe, non-executable simulation** that models ARP b
    cd arp-spoof
 
 2. **Edit the code on line 34 and 35 to add the target and gateway ip address**
-   **Example**
    ```pgsql
    target_ip_ip = "192.168.43.88"
    gateway_ip = "192.168.43.1" 
